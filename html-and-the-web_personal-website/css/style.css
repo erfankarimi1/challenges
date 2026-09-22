@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #48c9d0;
+
+}
+
+
+
+
+.container{
+    display: flex;
+   
+    border: 10px solid black;
+    height: 500px;
+    flex-wrap: wrap;
+}
+
+.box{
+
+    width: 100px;
+    height: 100px;  
+    font-size: 5em;
+    text-align: center;
+    border-radius: 10px;
+}
+#box1{
+    background-color: red;
+}
+#box2{
+    background-color: blue;
+}
+#box3{
+    background-color: green;
+}
+#box4{
+    background-color: yellow;
+}
