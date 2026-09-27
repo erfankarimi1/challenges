@@ -20,4 +20,4 @@ const tipPrecentage = 0.15;   // written as a decimal
 const tipAmount = mealcost * tipPrecentage; 
 const totalCost =  tipAmount + mealcost;
 console.log(tipAmount);
-console.log(totalCost)
+console.log(totalCost);
