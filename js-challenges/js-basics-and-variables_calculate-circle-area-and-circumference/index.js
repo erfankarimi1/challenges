@@ -17,4 +17,4 @@ How can you calculate the area and circumference of a pizza - oops, I mean a cir
 let radius = 5;
 const mathPI = 3.14;
 let circumference = 2 * mathPI * radius;
-console.log("The result of circumference is:" + circumference)
+console.log("The result of circumference is:" + circumference);
