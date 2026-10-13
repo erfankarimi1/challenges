@@ -1,10 +1,13 @@
 import "./styles.css";
 
+
+
 export default function App() {
-  return <div>
-    <h1>Hello World</h1>
-      
-      
-      
-      </div>;
+  return 
+      <HelloWorld />;
+  
+
+}
+function HelloWorld(){
+  return <h1>HelloWorld</h1>
 }
