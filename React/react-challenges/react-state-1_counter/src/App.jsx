@@ -2,7 +2,6 @@ import { useState } from "react";
 import "./styles.css";
 
 export default function App() {
-  
   const [count, setCount] = useState(0);
 
   return (
@@ -11,7 +10,8 @@ export default function App() {
       <div className="button-container">
         <button
           type="button"
-          onClick={() => { setCount(count - 1)
+          onClick={() => {
+            setCount((currentCount) => currentCount - 1);
             console.log("🤔");
           }}
         >
@@ -19,7 +19,8 @@ export default function App() {
         </button>
         <button
           type="button"
-          onClick={() => { setCount(count + 1)
+          onClick={() => {
+            setCount((currentCount) => currentCount + 1);
             console.log("🤔");
           }}
         >
