@@ -3,7 +3,6 @@ import { useState, useEffect } from "react";
 
 export default function PokemonList() {
   const [pokemon, setPokemon] = useState([]);
-  
 useEffect(() => {
   async function loadPokemon() {
     try {
@@ -14,8 +13,6 @@ useEffect(() => {
       console.log(error);
     }
   }
-  
-
   loadPokemon(); 
 },[]);
   
