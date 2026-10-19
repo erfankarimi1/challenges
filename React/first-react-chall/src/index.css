@@ -11,7 +11,8 @@
   
 }
 .card-img{
- max-width: 70%;
+ max-width: 150px;
+ max-height:150px;
   height: auto;
   margin-bottom: 10px;
 }
@@ -31,4 +32,23 @@
   justify-content: flex-start;
   font-family: Arial, sans-serif;
   color: rgb(40, 123, 188);
+}
+
+
+
+.welcome-message{
+  font-size: 2.5em;
+  background-color: rgb(155, 166, 216);
+  color: aliceblue;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 0;
+}
+.wrong-username{
+  background-color: red;
+  font-size: 2.5em;
+  color: aliceblue;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 0;
 }
