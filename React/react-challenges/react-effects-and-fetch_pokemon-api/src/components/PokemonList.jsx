@@ -1,9 +1,10 @@
-import { useState } from "react";
-import { useEffect } from "react";
+import { useState, useEffect } from "react";
+
 
 export default function PokemonList() {
   const [pokemon, setPokemon] = useState([]);
-useEffect(() => { 
+  
+useEffect(() => {
   async function loadPokemon() {
     try {
       const response = await fetch("https://pokeapi.co/api/v2/pokemon");
@@ -13,15 +14,14 @@ useEffect(() => {
       console.log(error);
     }
   }
-  loadPokemon();
-},[])
+  
+
+  loadPokemon(); 
+},[]);
   
 
   return (
     <main>
-      <button type="button" onClick={loadPokemon}>
-        Load Pokémon
-      </button>
       <ul>
         {pokemon.map(({ name }) => (
           <li key={name}>{name}</li>
